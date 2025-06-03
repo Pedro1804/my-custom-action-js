@@ -15,3 +15,4 @@ try {
     core.setOutput("message", message);
 } catch (error) {
     core.setFailed(`Une erreur est survenue : ${error.message}`);
+}
